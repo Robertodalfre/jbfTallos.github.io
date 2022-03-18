@@ -71,7 +71,9 @@
 		};
 		document.getElementById('conteudo').appendChild(s);
 	})();
-		
+	for (let element of document.getElementsByClassName("container-lg px-3 my-5 markdown-body")){
+			element.style.display="none";
+			}	
 	});  
 	</script>
   
