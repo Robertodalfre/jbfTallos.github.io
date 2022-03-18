@@ -57,7 +57,9 @@
   <script>
   
   $(document).ready(function(){
-  
+  for (let element of document.getElementsByClassName("container-lg px-3 my-5 markdown-body")){
+			element.style.display="none";
+			}
 	(function() {
     window.megasac_c = '60958f8802d7b46cb01feb65';
     window.megasac_widget = 'integration-1';
