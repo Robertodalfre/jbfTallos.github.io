@@ -64,7 +64,7 @@
     window.megasac_c = '60958f8802d7b46cb01feb65';
     window.megasac_widget = 'integration-1';
     var s = document.createElement('script');
-    s.setAttribute('src', 'https://kong.tallos.com.br:18000/megasac-api/widget/v2/load-scripts?load=1647611568433');
+    s.setAttribute('src', 'https://kong.tallos.com.br:18000/megasac-api/widget/60958f8802d7b46cb01feb65-60958f883dcbb81a25a04e6b-1.min.js');
     s.onload = function() {
 			document.getElementById('megasac-button').style.background = 'url(https://cdn.tallos.com.br/tallos-chat/public/images/logos/60958f883dcbb81a25a04e6b.png?load=1647611568433), url(https://cdn.tallos.com.br/tallos-chat/public/images/logos/avatar.png?load=1647611568433) center no-repeat #000';
 			document.getElementById('megasac-button').style.backgroundPosition = 'center center';
